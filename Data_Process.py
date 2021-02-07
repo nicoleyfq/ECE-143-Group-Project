@@ -3,7 +3,7 @@ def clean_data(data):
         This function will help clean data before writing them to 16 files
         This code will take in data, eliminate '|||' and replace them with'\n'
         :para data: store the information of each line in the data set file.
-        :type data: string
+        :type data: string.
     '''
     cleaned_data = data.replace('|||','\n')
     return cleaned_data
