@@ -8,19 +8,18 @@ Myer Briggs Personality Type Analysis using Python
 
 
 ## About Dataset: 
-
-    The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
-    * Introversion (I) – Extroversion (E)
-    * Intuition (N) – Sensing (S)
-    * Thinking (T) – Feeling (F)
-    * Judging (J) – Perceiving (P) 
- 
-    This dataset contains over 8600 rows of data, on each row is a person’s:
-    Type (This persons 4 letter MBTI code/type)
-    A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters))
+This dataset contains over 8600 rows of data, on each row is a person’s:
+Type (This persons 4 letter MBTI code/type)
+A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters))
+1. mbti_1.csv : raw txt from Kaggle
+2. seperated txt: 16 txt file for each MBTI
+3. length_count.csv: for length of posts analysis
+4. cleaned_raw.csv: cleaned for modeling purpose, detailed logic below
+5. youtube_link.csv: extracted youtube links 
 
 
-## Data Cleaning for Posts:
+
+## Data Cleaning (cleaned_raw.csv):
 
 1. lower case the posts
 1. replace ||| with double space
