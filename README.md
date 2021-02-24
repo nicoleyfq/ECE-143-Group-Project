@@ -1,15 +1,19 @@
 # ECE 143 Group Project - Team 14
 Myer Briggs Personality Type Analysis using Python
 
+## About Github Organization
+1. **MBTI_Analysis** : this folder contains python program for analysis
+2. **MBTI_Data** : this folder contains raw data
+3. Group14_Assignment5.ipynb : this is validation test for Assignment #5
+
+
 ## About Dataset: 
 
     The Myers Briggs Type Indicator (or MBTI for short) is a personality type system that divides everyone into 16 distinct personality types across 4 axis:
     * Introversion (I) – Extroversion (E)
     * Intuition (N) – Sensing (S)
     * Thinking (T) – Feeling (F)
-    * Judging (J) – Perceiving (P)
-
-    So for example, someone who prefers introversion, intuition, thinking and perceiving would be labelled an INTP in the MBTI system, and there are lots of personality based components that would model or describe this person’s preferences or behaviour based on the label.
+    * Judging (J) – Perceiving (P) 
  
     This dataset contains over 8600 rows of data, on each row is a person’s:
     Type (This persons 4 letter MBTI code/type)
