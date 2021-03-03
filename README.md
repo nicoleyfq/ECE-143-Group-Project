@@ -23,7 +23,7 @@ A section of each of the last 50 things they have posted (Each entry separated b
  certain words are used to formulate sentences but do not add any semantic meaning to the text. For example, the most commonly used word in the english language is the which represents 7% of all words written or spoken. You couldn’t make deduce anything about a text given the fact that it contains the word the. On the other hand, words like good and awesome could be used to determine whether a rating was positive or not.
 
 ## Directory Guide:
-.
+<pre>
 ├── Group\ Assignment
 │   └── Group14_Assignment5.ipynb
 ├── MBTI_Analysis
@@ -65,46 +65,4 @@ A section of each of the last 50 things they have posted (Each entry separated b
 └── tree.txt
 
 4 directories, 35 files
-.
-├── Group\ Assignment
-│   └── Group14_Assignment5.ipynb
-├── MBTI_Analysis
-│   ├── CalculateLenght.py
-│   ├── Data_Process.py
-│   ├── MBTI.ipynb
-│   ├── clean_data.py
-│   ├── environment.yml
-│   ├── extract_youtube.py
-│   ├── keyword_analysis.py
-│   └── library_requirement.py
-├── MBTI_Data
-│   ├── Length_count.csv
-│   ├── cleaned_raw.csv
-│   ├── eng_stopwords.txt
-│   ├── eng_stopwords1.txt
-│   ├── mbti_1.csv
-│   ├── processed_docs.csv
-│   ├── raw_sentiment.csv
-│   ├── seperated\ txt
-│   │   ├── ENFJ.txt
-│   │   ├── ENFP.txt
-│   │   ├── ENTJ.txt
-│   │   ├── ENTP.txt
-│   │   ├── ESFJ.txt
-│   │   ├── ESFP.txt
-│   │   ├── ESTJ.txt
-│   │   ├── ESTP.txt
-│   │   ├── INFJ.txt
-│   │   ├── INFP.txt
-│   │   ├── INTJ.txt
-│   │   ├── INTP.txt
-│   │   ├── ISFJ.txt
-│   │   ├── ISFP.txt
-│   │   ├── ISTJ.txt
-│   │   └── ISTP.txt
-│   └── youtube_links.csv
-├── README.md
-└── tree.txt
-
-4 directories, 35 files
-
+</pre>
