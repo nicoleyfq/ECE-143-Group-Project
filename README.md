@@ -2,7 +2,7 @@
 This project is about Myer Briggs Personality Type(MBTI) data analysis and prediction using Python
 
 ## About Github Organization
-1. **MBTI_Analysis** : this folder contains python program for analysis
+1. **MBTI_Analysis** : this folder contains python program for analysis, and 1 jupyter notebook for all visualization
 2. **MBTI_Data** : this folder contains raw data
 3. **Group Assignment** : validation test for Assignment #5
 4. **environment.yml**: environment and dependencies file
@@ -11,16 +11,6 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 The original dataset contains over 8600 rows of data, on each row is a person’s:
 Type (This persons 4 letter MBTI code/type)
 A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters))
-
-## Data Cleaning (cleaned_raw.csv):
-
-1. lower case the posts
-1. replace ||| with double space
-3. replace youtube website address with “youtube” and all other website with nothing
-4. substitute punctuations, newline character, digits with nothing
-5. apply word_tokenize, convert the text to list of words
-6. remove **Stop Words**: Stop words are those words that do not contribute to the deeper meaning of the phrase.They are the most common words such as: “the“, “a“, and “is“.
- certain words are used to formulate sentences but do not add any semantic meaning to the text. For example, the most commonly used word in the english language is the which represents 7% of all words written or spoken. You couldn’t make deduce anything about a text given the fact that it contains the word the. On the other hand, words like good and awesome could be used to determine whether a rating was positive or not.
 
 ## Directory Guide:
 <pre>
@@ -35,6 +25,7 @@ A section of each of the last 50 things they have posted (Each entry separated b
 │   ├── extract_youtube.py
 │   ├── keyword_analysis.py
 │   └── library_requirement.py
+│   └──lstm_process.py  "used for lstm classification"
 ├── MBTI_Data
 │   ├── Length_count.csv   "for length of posts analysis"
 │   ├── cleaned_raw.csv
@@ -62,7 +53,18 @@ A section of each of the last 50 things they have posted (Each entry separated b
 │   │   └── ISTP.txt
 │   └── youtube_links.csv   "extracted youtube links "
 ├── README.md
-└── tree.txt
+└── tree.txt    "directory tree"
 
-4 directories, 35 files
+4 directories, 36 files
 </pre>
+
+
+## Data Cleaning (cleaned_raw.csv):
+
+1. lower case the posts
+1. replace ||| with double space
+3. replace youtube website address with “youtube” and all other website with nothing
+4. substitute punctuations, newline character, digits with nothing
+5. apply word_tokenize, convert the text to list of words
+6. remove **Stop Words**: Stop words are those words that do not contribute to the deeper meaning of the phrase.They are the most common words such as: “the“, “a“, and “is“.
+ certain words are used to formulate sentences but do not add any semantic meaning to the text. For example, the most commonly used word in the english language is the which represents 7% of all words written or spoken. You couldn’t make deduce anything about a text given the fact that it contains the word the. On the other hand, words like good and awesome could be used to determine whether a rating was positive or not.
