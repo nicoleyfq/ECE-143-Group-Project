@@ -7,10 +7,9 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 3. **Group Assignment** : validation test for Assignment #5
 4. **environment.yml**: environment and dependencies file
 
-## About Dataset: 
-The original dataset contains over 8600 rows of data, on each row is a person’s:
-Type (This persons 4 letter MBTI code/type)
-A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters))
+## How to Run Code
+1. copy environment using environment.yml
+2. run MBTI.ipynb for all analysis,visulization and classification result. All .py files were used for preprocess data, and the results will be imported automatically.
 
 ## Directory Guide:
 <pre>
@@ -21,7 +20,6 @@ A section of each of the last 50 things they have posted (Each entry separated b
 │   ├── Data_Process.py
 │   ├── MBTI.ipynb      "jupyternote book for visualization"
 │   ├── clean_data.py   "cleaned for modeling purpose"
-│   ├── environment.yml
 │   ├── extract_youtube.py
 │   ├── keyword_analysis.py
 │   └── library_requirement.py
@@ -54,10 +52,15 @@ A section of each of the last 50 things they have posted (Each entry separated b
 │   └── youtube_links.csv   "extracted youtube links "
 ├── README.md
 └── tree.txt    "directory tree"
+└── environment.yml
 
 4 directories, 36 files
 </pre>
 
+## About Dataset: 
+The original dataset contains over 8600 rows of data, on each row is a person’s:
+Type (This persons 4 letter MBTI code/type)
+A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters))
 
 ## Data Cleaning (cleaned_raw.csv):
 
