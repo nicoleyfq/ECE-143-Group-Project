@@ -1,16 +1,26 @@
 # UCSD ECE 143 Group Project - Team 14
 This project is about Myer Briggs Personality Type(MBTI) data analysis and prediction using Python
 
-## About Github Organization
-1. **MBTI_Analysis** : this folder contains python program for analysis, and 1 jupyter notebook for all visualization
-2. **MBTI_Data** : this folder contains raw data
-3. **Group Assignment** : validation test for Assignment #5
+# Table of Contents  
+1. [Folder Organization]((#folder) ) 
+2. [How to Run Code](#run)  
+3. [Directory Guide](#dir) 
+4. [About Dataset](#data) 
+5. [Data Cleaning](#clean) 
+
+<a name="folder"/></a>
+## Folder Organization
+1. **MBTI_Analysis** : contains .py files for analysis, and .ipynb for all visualization
+2. **MBTI_Data** : contains datasets for this project
+3. **Group Assignment** : functional and validation test for Assignment #5
 4. **environment.yml**: environment and dependencies file
 
+<a name="run"/></a>
 ## How to Run Code
-1. copy environment using environment.yml
-2. run MBTI.ipynb for all analysis,visulization and classification result. All .py files were used for preprocess data, and the results will be imported automatically.
+1. Reproduce environment using ./environment.yml
+2. Run ./MBTI_Analysis/MBTI.ipynb for all data analysis,visulization and classification result. All .py files were used for preprocess data, and the results will be imported to jupyter notebook automatically.
 
+<a name="dir"/></a>
 ## Directory Guide:
 <pre>
 ├── Group\ Assignment
@@ -57,13 +67,14 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 4 directories, 36 files
 </pre>
 
+<a name="data"/></a>
 ## About Dataset: 
 The original dataset contains over 8600 rows of data, on each row is a person’s:
 Type (This persons 4 letter MBTI code/type)
 A section of each of the last 50 things they have posted (Each entry separated by "|||" (3 pipe characters))
 
+<a name="clean"/></a>
 ## Data Cleaning (cleaned_raw.csv):
-
 1. lower case the posts
 1. replace ||| with double space
 3. replace youtube website address with “youtube” and all other website with nothing
