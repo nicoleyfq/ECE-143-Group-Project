@@ -14,6 +14,7 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 2. **MBTI_Data** : contains datasets for this project
 3. **Group Assignment** : functional and validation test for Assignment #5
 4. **environment.yml**: environment and dependencies file
+4. **MBTI_Presentation.pdf**: presentation pdf
 
 <a name="run"/></a>
 ## How to Run Code
