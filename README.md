@@ -2,7 +2,7 @@
 This project is about Myer Briggs Personality Type(MBTI) data analysis and prediction using Python
 
 # Table of Contents  
-1. [Folder Organization]((#folder) ) 
+1. [Folder Organization](#folder)
 2. [How to Run Code](#run)  
 3. [Directory Guide](#dir) 
 4. [About Dataset](#data) 
@@ -23,7 +23,7 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 <a name="dir"/></a>
 ## Directory Guide:
 <pre>
-├── Group\ Assignment
+├── Group Assignment
 │   └── Group14_Assignment5.ipynb
 ├── MBTI_Analysis
 │   ├── CalculateLenght.py
