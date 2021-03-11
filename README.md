@@ -62,7 +62,7 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 │   │   └── ISTP.txt
 │   └── youtube_links.csv   "extracted youtube links "
 ├── README.md
-└── tree.txt    "directory tree"
+└── MBTI_Presentation.pdf
 └── environment.yml
 
 4 directories, 36 files
