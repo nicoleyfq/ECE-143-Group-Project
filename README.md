@@ -1,5 +1,5 @@
 # UCSD ECE 143 Group Project - Team 14
-This project is about Myer Briggs Personality Type(MBTI) data analysis and prediction using Python
+This project is about Myer Briggs Personality Type(MBTI) data analysis and prediction using Python 3.7+ 
 
 # Table of Contents  
 1. [Folder Organization](#folder)
@@ -18,9 +18,23 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 
 <a name="run"/></a>
 ## How to Run Code
-1. Reproduce environment using **./environment.yml**
-2. Test all third party modules have been installed --> run ./MBTI_Analysis/library_requirement.py
-3. Run **./MBTI_Analysis/MBTI.ipynb** for all data analysis,visulization and classification result. All .py files were used for preprocess data, and the results will be imported to jupyter notebook automatically.
+1. Reproduce environment using 
+<pre>
+conda env create -f environment.yml
+</pre>
+
+2. Test all third party modules have been installed 
+<pre>
+python3 ./MBTI_Analysis/library_requirement.py
+</pre>
+
+3. Download this github repository. 
+
+4. Reproduce all the data analysis,visulization and classification result by running following jupyter notebook
+<pre>
+./MBTI_Analysis/MBTI.ipynb
+</pre>
+Note that all .py files were used for preprocess data, and the results will be imported to jupyter notebook automatically.
 
 <a name="dir"/></a>
 ## Directory Guide:
