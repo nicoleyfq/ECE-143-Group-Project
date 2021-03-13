@@ -1,3 +1,7 @@
+'''
+this file preprocess all the post
+'''
+
 import pandas as pd
 import numpy as np
 from nltk import word_tokenize

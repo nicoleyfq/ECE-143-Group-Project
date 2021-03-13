@@ -1,3 +1,6 @@
+'''
+this file calculate length of posts
+'''
 def creating_text_file():
     lc = open('Length_count.csv','w')
 

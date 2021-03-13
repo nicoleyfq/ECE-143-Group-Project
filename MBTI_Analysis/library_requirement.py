@@ -1,3 +1,6 @@
+'''
+this is a test file to test environment setup
+'''
 import pandas as pd
 import numpy as np
 from collections import Counter
@@ -31,23 +34,8 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 from mpl_toolkits.mplot3d import Axes3D
 
-
-import pandas as pd
-import numpy as np
 import tensorflow as tf
 from tensorflow import keras
-from collections import Counter
-import re
-import gensim
-from gensim.utils import simple_preprocess 
-from nltk import word_tokenize
-from nltk.corpus import stopwords
-from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
-from textblob import TextBlob
-from tqdm import tqdm
-from os import path
-from PIL import Image
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
@@ -57,5 +45,3 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.metrics import confusion_matrix, classification_report
-import matplotlib.pyplot as plt
-import seaborn as sns
