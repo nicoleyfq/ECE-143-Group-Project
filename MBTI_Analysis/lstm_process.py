@@ -1,3 +1,6 @@
+'''
+process data before LSTM classification
+'''
 
 def lstm_process(data):
     target_names_0 = ["ENFJ","ENFP","ENTJ","ENTP","ESFJ","ESFP","ESTJ","ESTP","INFJ","INFP","INTJ","INTP","ISFJ","ISFP","ISTJ","ISTP"]

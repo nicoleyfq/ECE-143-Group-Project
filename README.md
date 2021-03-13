@@ -12,28 +12,28 @@ This project is about Myer Briggs Personality Type(MBTI) data analysis and predi
 ## Folder Organization
 1. **MBTI_Analysis** : contains all **.py** files for analysis, and **.ipynb** for all visualization
 2. **MBTI_Data** : contains datasets for this project
-3. **Group Assignment** : functional and validation test for Assignment #5
+3. **Group14_Assignment5.ipynb** : functional and validation test for Assignment #5
 4. **environment.yml**: environment and dependencies file
 4. **MBTI_Presentation.pdf**: presentation pdf
 
 <a name="run"/></a>
 ## How to Run Code
 1. Reproduce environment using **./environment.yml**
-2. Run **./MBTI_Analysis/MBTI.ipynb** for all data analysis,visulization and classification result. All .py files were used for preprocess data, and the results will be imported to jupyter notebook automatically.
+2. Test all third party modules have been installed --> run ./MBTI_Analysis/library_requirement.py
+3. Run **./MBTI_Analysis/MBTI.ipynb** for all data analysis,visulization and classification result. All .py files were used for preprocess data, and the results will be imported to jupyter notebook automatically.
 
 <a name="dir"/></a>
 ## Directory Guide:
 <pre>
-├── Group Assignment
-│   └── Group14_Assignment5.ipynb
+├── Group14_Assignment5.ipynb   "group assignment test cases"
 ├── MBTI_Analysis
-│   ├── CalculateLenght.py
+│   ├── cal_length.py
 │   ├── Data_Process.py
 │   ├── MBTI.ipynb      "jupyternote book for visualization"
 │   ├── clean_data.py   "cleaned for modeling purpose"
 │   ├── extract_youtube.py
 │   ├── keyword_analysis.py
-│   └── library_requirement.py
+│   └── library_requirement.py  "test environment setup"
 │   └──lstm_process.py  "used for lstm classification"
 ├── MBTI_Data
 │   ├── Length_count.csv   "for length of posts analysis"
